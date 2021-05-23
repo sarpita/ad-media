@@ -1,0 +1,32 @@
+.subheader{
+    padding:1em;
+}
+.sort-elem{
+    border: 1px solid #666;
+    border-radius: 10%/10px;
+    padding: 0.5em;
+    margin: 0 1.5em;
+    cursor:pointer;
+    font-size: 0.9em;
+}
+.sort-elem:hover{
+    background: rgba(40,116,240,0.5);
+}
+.sort-elem.active{
+    background: #2874f0;
+    color:#fff;
+}
+.clear-filter{
+    color:#2874f0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+    .subheader{
+        padding: 0.05em;
+        margin-top: 1em;
+    }
+    .sort-elem{
+        margin: 0.5em;
+    }
+}

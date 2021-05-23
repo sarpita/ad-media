@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Roboto','Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+a{
+  color: #2874f0;
+    line-height: 1.5em;
+    text-decoration: none;
+}

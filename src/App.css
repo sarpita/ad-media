@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top:56px;
+}
+.App-header{
+  height:56px;
+  background:#2874f0;
+  position:fixed;
+  top:0;
+  width:100%;
+  box-shadow: 2px 2.5px 0 rgb(0 0 0 / 30%);
+}
+.filters-icon {
+  position: relative;
+  padding-left: 1.25em;
+  display: none;
+  top: 25%;
+  left: 1em;
+}
+.filters-icon:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 2em;
+  height: 0.25em;
+  background: black;
+  box-shadow: 
+  0 0.5em 0 0 black, 0 1.05em 0 0 black
+}
+.loading-msg{
+  display: block;
+  width:80%;
+  text-align: center;
+  padding:40px 0;
+}
+.backlink{
+  margin-top: 1em;
+  padding: 2em;
+}
+@media screen and (max-width:500px){
+  .filters-icon {
+    display: block;
+  }
+}
